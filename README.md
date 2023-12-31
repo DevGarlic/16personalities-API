@@ -5,7 +5,7 @@ pip install requests bs4 lxml pandas
 ```
 ### 함수 목록
 ```python
-import mbti
+from mbti import *
 
 print(get_relationship("ENTP","ENFJ")) # mbti 궁합 출력
 >> 아주 좋은 관계가 될 수 있음!
